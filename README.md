@@ -53,43 +53,6 @@ npm run typecheck
 npm run test
 ```
 
-## Estructura
-
-```text
-src/
-  app/
-    dashboard/
-    leads/
-    globals.css
-    layout.tsx
-    page.tsx
-  components/
-    shared/
-    ui/
-  data/
-    leads.ts
-  features/
-    ai-summary/
-      components/
-      hooks/
-      services/
-      utils/
-    dashboard/
-      components/
-      hooks/
-      utils/
-    leads/
-      components/
-      hooks/
-      schemas/
-      services/
-      types/
-      utils/
-  lib/
-  providers/
-  tests/
-```
-
 ## Decisiones tecnicas
 
 - `feature-based architecture`: separa UI, servicios, hooks, schemas y utilidades por dominio.
